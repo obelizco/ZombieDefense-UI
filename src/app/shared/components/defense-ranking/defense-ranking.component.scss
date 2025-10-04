@@ -1,0 +1,22 @@
+:host {
+  display: block;
+  margin-top: 2rem;
+
+  h3 {
+    color: var(--color-warning);
+  }
+
+  .p-table {
+    background: var(--color-card);
+    border-radius: var(--radius);
+
+    th {
+      background: #222;
+      color: var(--color-accent);
+    }
+
+    td {
+      color: var(--color-text);
+    }
+  }
+}

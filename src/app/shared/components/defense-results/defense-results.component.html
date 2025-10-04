@@ -1,0 +1,24 @@
+<div class="p-mt-3">
+  <h3>Resultado</h3>
+  <p><strong>Puntaje:</strong> {{ result.totalScore }}</p>
+  <p><strong>Balas usadas:</strong> {{ result.bulletsUsed }}</p>
+  <p><strong>Tiempo usado:</strong> {{ result.timeUsed }}</p>
+
+  <h4>Zombies eliminados:</h4>
+  <p-table [value]="result.zombiesEliminated">
+    <ng-template pTemplate="header">
+      <tr>
+        <th>Tipo</th>
+        <th>Puntaje</th>
+        <th>Amenaza</th>
+      </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-zombie>
+      <tr>
+        <td>{{ zombie.zombieType }}</td>
+        <td>{{ zombie.score }}</td>
+        <td>{{ zombie.threatLevel }}</td>
+      </tr>
+    </ng-template>
+  </p-table>
+</div>

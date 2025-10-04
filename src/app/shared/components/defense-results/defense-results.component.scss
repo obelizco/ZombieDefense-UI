@@ -1,0 +1,23 @@
+:host {
+  display: block;
+  margin-top: 2rem;
+
+  h3 {
+    color: var(--color-success);
+  }
+
+  .p-table {
+    background: var(--color-card);
+    border-radius: var(--radius);
+    overflow: hidden;
+
+    th {
+      background: #222;
+      color: var(--color-warning);
+    }
+
+    td {
+      color: var(--color-text);
+    }
+  }
+}

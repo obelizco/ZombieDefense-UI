@@ -1,27 +1,40 @@
-# ZombieDefense
+# ZombieDefense 🧟‍♂️
+This project aims to obtain list task information from the api https://fakestoreapi.com/.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.9.
+# Technologies 💻
 
-## Development server
+* [Angular 18.0.0](https://angular.io/cli) - The web framework used
+* [PrimeNG](https://primeng.org/) - Implementation of PrimeNG in Angular
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Getting started ✔️
 
-## Code scaffolding
+These instructions will allow you to get a copy of the project up and running on your local machine for development and testing purposes.
+See Installation to learn how to deploy the project.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Prerequisites 📋
 
-## Build
+In order to run the project, it is necessary to have the Angular CLI installed in version 18.0.0 or later.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Installation  🔧
 
-## Running unit tests
+_Download and install Angular CLI globally:_ ```npm install -g @angular/cli```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+_Clone this repository:_ ```git clone https://github.com/obelizco/provetecnica.git.```
 
-## Running end-to-end tests
+_Run ```npm install``` from the root of the project._
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+_Run ```ng serve``` in the terminal from the project root._
 
-## Further help
+_Advantage. 🎉
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## Build 🚀
+
+Run  `ng build`  to build the project. The build artifacts will be stored in the  `dist/`  directory. Use the  `--prod`  flag for a production build.
+
+* [Web side](https://spiffy-boba-7bafe4.netlify.app) 
+
+## 🖥️ Main Features
+- **Simulation form:** enter bullets and available time.  
+- **Optimal strategy visualization:** shows score, used resources, and eliminated zombies.  
+- **History ranking:** list of previous attempts ordered by score.  
+

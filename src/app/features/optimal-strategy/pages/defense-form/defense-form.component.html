@@ -1,0 +1,19 @@
+<div class="p-fluid">
+  <h2>Simulación Zombie Defense</h2>
+
+  <div class="p-field">
+    <label for="bullets">Balas disponibles</label>
+    <input id="bullets" type="number" pInputText [(ngModel)]="bullets" />
+  </div>
+
+  <div class="p-field">
+    <label for="seconds">Segundos disponibles</label>
+    <input id="seconds" type="number" pInputText [(ngModel)]="secondsAvailable" />
+  </div>
+
+  <button pButton type="button" label="Simular" (click)="simulate()"></button>
+
+  <app-defense-results *ngIf="result" [result]="result"></app-defense-results>
+
+  <app-defense-ranking *ngIf="history.length > 0" [history]="history"></app-defense-ranking>
+</div>
