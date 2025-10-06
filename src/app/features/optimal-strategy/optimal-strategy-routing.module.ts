@@ -4,7 +4,7 @@ import { DefenseFormComponent } from './pages/defense-form/defense-form.componen
 
 const routes: Routes = [
   {
-   path: 'strategy',
+   path: '',
    component: DefenseFormComponent
   }
 ];
